@@ -1,6 +1,6 @@
 # *UkoS*-Anwendungsfälle
 
-Anwendungsfälle für *UkoS*, das *Umsetzungsprojekt kommunale Straßendaten Mecklenburg-Vorpommern*
+Anwendungsfälle für *UkoS*, das *Umsetzungsprojekt kommunale Straßendaten Mecklenburg-Vorpommern*; gehostet bei der Hanse- und Universitätsstadt Rostock unter https://geo.sv.rostock.de/ukos-anwendungsfaelle
 
 ## Voraussetzungen
 

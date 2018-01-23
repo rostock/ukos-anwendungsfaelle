@@ -1,10 +1,7 @@
-.. UkoS-Anwendungsfälle documentation master file, created by
-   sphinx-quickstart on Thu Jan 18 14:14:00 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Anwendungsfälle für UkoS
+========================
 
-Welcome to UkoS-Anwendungsfälle's documentation!
-================================================
+Anwendungsfälle für UkoS, das Umsetzungsprojekt kommunale Straßendaten Mecklenburg-Vorpommern
 
 .. toctree::
    :maxdepth: 2
@@ -12,9 +9,8 @@ Welcome to UkoS-Anwendungsfälle's documentation!
 
 
 
-Indices and tables
-==================
+Indizes und Übersichten
+=======================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
