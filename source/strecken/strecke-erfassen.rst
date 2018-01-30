@@ -1,4 +1,4 @@
-.. index:: Stationierung, Straßenelemente, Strecken, Stützpunkte
+.. index:: Stationierung, Straßenelemente, Strecken, Stützpunkte, Teilelemente
 
 Strecke erfassen
 ================
@@ -11,10 +11,14 @@ Geometrie
 ---------
 
 #. Erfassung des Start-Stützpunktes (**noch** zu realisieren auf **Applikationsebene**)
+#. Auswahl des betroffenen Start-Straßenelements (**noch** zu realisieren auf **Applikationsebene**)
+#. Fällung der Lotrechten auf das betroffene Start-Straßenelement zur Ermittlung des Start-Straßenelementpunktes (**noch** zu realisieren auf **Datenbankebene**)
 #. Erfassung des Ende-Stützpunktes (**noch** zu realisieren auf **Applikationsebene**)
-#. Auswahl der betroffenen bzw. beteiligten Straßenelement (**noch** zu realisieren auf **Applikationsebene**)
-#. Fällung der Lotrechten auf das nächstgelegene betroffene bzw. beteiligte Straßenelement als Vorlaufwert für die Verknüpfung zum Straßenelement (**noch** zu realisieren auf **Applikationsebene**)
-#. Fällung der Lotrechten auf das nächstgelegene betroffene bzw. beteiligte Straßenelement zur Ermittlung des Start-Straßenelementpunktes und des Ende-Straßenelementpunktes (**noch** zu realisieren auf **Datenbankebene**)
+#. Auswahl des betroffenen Ende-Straßenelements (**noch** zu realisieren auf **Applikationsebene**)
+#. Fällung der Lotrechten auf das betroffene Ende-Straßenelement zur Ermittlung des Ende-Straßenelementpunktes (**noch** zu realisieren auf **Datenbankebene**)
+#. Teilelement auf Start-Straßenelement (von Start-Straßenelementpunkt bis nächsten Verbindungspunkt in Richtung Ende-Straßenelement) bilden (**noch** zu realisieren auf **Datenbankebene**)
+#. Teilelement auf Ende-Straßenelement (von nächstem Verbindungspunkt aus Richtung Start-Straßenelement bis Ende-Straßenelementpunkt) bilden (**noch** zu realisieren auf **Datenbankebene**)
+#. Verknüpfung der Teilelemente und der dazwischenliegenden Straßenelemente mit der Strecke (**noch** zu realisieren auf **Datenbankebene**)
 
 .. _strecke-erfassen_sachdaten:
 

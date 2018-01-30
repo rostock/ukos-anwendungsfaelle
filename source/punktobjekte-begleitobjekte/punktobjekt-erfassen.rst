@@ -1,4 +1,4 @@
-.. index:: Begleitobjekte, Einfügebasispunkte, Punktobjekte, Stationierung, Straßenelemente, Stützpunkte
+.. index:: Begleitobjekte, Punktobjekte, Stationierung, Straßenelemente, Stützpunkte
 
 Punktobjekt erfassen
 ====================
@@ -15,17 +15,18 @@ Geometrie
 Möglichkeit 1
 ^^^^^^^^^^^^^
 
-#. Erfassung des Einfügebasispunktes eines Punktobjektes (Begleitobjektes) (**noch** zu realisieren auf **Applikationsebene**)
-#. Fällung der Lotrechten auf das nächstgelegene Straßenelement als Vorlaufwert für die Verknüpfung zum Straßenelement (**noch** zu realisieren auf **Applikationsebene**)
-#. Fällung der Lotrechten auf das nächstgelegene Straßenelement, Erstellung eines Straßenelementpunktes und Berechnung des Abszissenwertes, des Ordinatenwertes sowie der Ordinatenrichtung (**noch** zu realisieren auf **Datenbankebene**)
+#. Erfassung des Einfügeortes eines Punktobjektes (Begleitobjektes) (**noch** zu realisieren auf **Applikationsebene**)
+#. Auswahl des betroffenen Straßenelements (**noch** zu realisieren auf **Applikationsebene**)
+#. Fällung der Lotrechten auf das betroffene Straßenelement, Erstellung eines Straßenelementpunktes und Berechnung des Abszissenwertes, des Ordinatenwertes sowie der Ordinatenrichtung (**noch** zu realisieren auf **Datenbankebene**)
 
 .. _punktobjekt-erfassen_moeglichkeit-2:
 
 Möglichkeit 2
 ^^^^^^^^^^^^^
 
-#. Ermittlung der Einfügekoordinate des Punktobjektes (Begleitobjektes) durch Eingabe der Abszissen- und Ordinatenwerte sowie der Ordinatenrichtung (**noch** zu realisieren auf **Applikationsebene**)
-#. Erzeugung der Einfügekoordinate (**noch** zu realisieren auf **Datenbankebene**)
+#. Auswahl des betroffenen Straßenelements (**noch** zu realisieren auf **Applikationsebene**)
+#. Ermittlung des Einfügeortes des Punktobjektes (Begleitobjektes) durch Eingabe der Abszissen- und Ordinatenwerte sowie der Ordinatenrichtung (**noch** zu realisieren auf **Applikationsebene**)
+#. Erzeugung des Einfügeortes (**noch** zu realisieren auf **Datenbankebene**)
 
 .. _punktobjekt-erfassen_sachdaten:
 

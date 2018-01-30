@@ -1,4 +1,4 @@
-.. index:: Querprofil, Stationierung, Straßenelemente, Flächen, Stützpunkte, Topologie
+.. index:: Flächen, Querprofil, Stationierung, Straßenelemente, Stützpunkte, Teilelemente, Topologie
 
 Fläche aus Stationierung und Querprofil erzeugen
 ================================================
@@ -12,12 +12,15 @@ Geometrie
 
 #. Erfassung von Straßenelementpunkten und Querprofilen (**noch** zu realisieren auf **Applikationsebene**):
     
-    * Erfassung des Start-Straßenelementpunktes
-    * Erfassung der Straßenelementpunktes für die Querprofile
-    * Erfassung des Ende-Straßenelementpunktes
-    * Eingabe der L- und R-Ordinaten der Querprofile
+    * Erfassung des Start-Straßenelementpunktes und damit zugleich Festlegung des Start-Straßenelements
+    * Erfassung des Ende-Straßenelementpunktes und damit zugleich Festlegung des Ende-Straßenelements
+    * Erfassung der dazwischenliegenden Straßenelementpunkte für die Querprofile
+    * Eingabe der L- und R-Ordinaten der Querprofile an jedem dazwischenliegenden Straßenelementpunkt für die Querprofile
 
 #. Erzeugung einer Fläche als geschlossenes Polygon (**noch** zu realisieren auf **Applikationsebene**)
+#. Teilelement auf Start-Straßenelement (von Start-Straßenelementpunkt bis nächsten Verbindungspunkt in Richtung Ende-Straßenelement) bilden (**noch** zu realisieren auf **Datenbankebene**)
+#. Teilelement auf Ende-Straßenelement (von nächstem Verbindungspunkt aus Richtung Start-Straßenelement bis Ende-Straßenelementpunkt) bilden (**noch** zu realisieren auf **Datenbankebene**)
+#. Verknüpfung der Teilelemente und der dazwischenliegenden Straßenelemente mit der Fläche (**noch** zu realisieren auf **Datenbankebene**)
 #. Prüfung der Topologie (**noch** zu realisieren auf **Datenbankebene**)
 
 

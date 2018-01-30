@@ -1,4 +1,4 @@
-.. index:: Begleitobjekte, Einfügebasispunkte, Punktobjekte, Stationierung, Straßenelemente, Stützpunkte
+.. index:: Begleitobjekte, Punktobjekte, Stationierung, Straßenelemente, Stützpunkte
 
 Punktobjekt löschen
 ===================
@@ -11,6 +11,8 @@ Geometrie
 ---------
 
 siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
+
+#. zugehörigen Straßenelementpunkt ebenfalls löschen, falls kein anderes, „lebendes“ Punktobjekt (Begleitobjekt) mehr mit dem Straßenelementpunkt verknüpft ist (**noch** zu realisieren auf **Datenbankebene**)
 
 .. _punktobjekt-loeschen_sachdaten:
 
