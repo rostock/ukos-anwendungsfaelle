@@ -12,7 +12,7 @@ Geometrie
 
 #. Erfassung des Startpunktes, der Stützpunkte und des Endpunktes (**noch** zu realisieren auf **Applikationsebene**)
 #. Prüfung, ob Verbindungspunkte an den Enden vorhanden sind ⇒ automatisierte Erzeugung fehlender Verbindungspunkte (**schon** realisiert auf **Datenbankebene** als Trigger)
-#. Prüfung, ob Startpunkt und Endpunkt an das Gesamtstraßennetz anknüpfen (Geometrieabschluss) (**noch** zu realisieren auf **Datenbankebene** ⇒ **noch** zu realisierende Herstellung der Topologie auf **Datenbankebene**, falls möglich)
+#. Herstellung der Anknüpfung des Start- und/oder Endpunktes an das Gesamtstraßennetz (Geometrieanschluss) (**noch** zu realisieren auf **Datenbankebene** ⇒ **noch** zu realisierende Herstellung der Topologie auf **Datenbankebene**, falls möglich)
 
 .. _strassenelement-erfassen_sachdaten:
 

@@ -109,9 +109,9 @@ html_sidebars = {
     ]
 }
 
-html_title = 'Anwendungsfälle für UkoS'
+html_title = u'Anwendungsfälle für UkoS'
 
-html_short_title = 'UkoS-Anwendungsfälle'
+html_short_title = u'UkoS-Anwendungsfälle'
 
 html_show_copyright = False
 

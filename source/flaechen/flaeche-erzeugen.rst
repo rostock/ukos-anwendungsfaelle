@@ -1,7 +1,7 @@
 .. index:: Flächen, Querprofil, Stationierung, Straßenelemente, Stützpunkte, Teilelemente, Topologie
 
-Fläche aus Stationierung und Querprofil erzeugen
-================================================
+Fläche aus Stationierung und Querprofil erzeugen („Trapezmodell“)
+=================================================================
 
 .. image:: /_static/flaeche-erzeugen.png
 
