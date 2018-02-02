@@ -1,4 +1,4 @@
-.. index:: Bearbeiter, Benutzer, Historie, Metadaten, Präambel, Versionierung
+.. index:: Bearbeiter, Historie, Metadaten, Präambel, Versionierung
 
 Präambel
 ========
@@ -12,7 +12,7 @@ Es soll eine Versionierung im Sinne einer Vollhistorie stattfinden: Jede Änderu
 
 Entsprechende Attribute, mit denen sich eine Versionierung im Sinne einer Vollhistorie realisieren lässt, sind im Datenbankmodell integriert. Umgesetzt werden muss die Versionierung allerdings **noch** auf **Applikationsebene**.
 
-Historische Objekte sollen grundsätzlich nicht (mehr) zur Darstellung gebracht werden außer für Benutzer, die über die explizite Berechtigung dazu verfügen – auch dies **noch** zu realisieren auf **Applikationsebene**.
+Historische Objekte sollen zwar standardmäßig nicht (mehr) zur Darstellung gebracht werden, es soll aber die Möglichkeit bestehen, historische Objekte zu reaktivieren – Beispiel: Ein Papierkorb, der einige Zeit zur Reparatur abgebaut war, soll wieder installiert werden. Auch dies ist **noch** zu realisieren auf **Applikationsebene**.
 
 .. _praeambel_bearbeitung:
 

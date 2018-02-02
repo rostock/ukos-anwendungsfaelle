@@ -51,10 +51,11 @@ Flächen
    :glob:
    :maxdepth: 2
 
-   flaechen/flaeche-erfassen
-   flaechen/flaeche-bearbeiten
+   flaechen/flaeche-erfassen-zeichnen
+   flaechen/flaeche-erfassen-trapezmodell
+   flaechen/flaeche-bearbeiten-zeichnen
+   flaechen/flaeche-bearbeiten-trapezmodell
    flaechen/flaeche-loeschen
-   flaechen/flaeche-erzeugen
 
 Indizes und Übersichten
 =======================

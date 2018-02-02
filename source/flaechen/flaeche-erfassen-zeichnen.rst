@@ -1,11 +1,11 @@
 .. index:: Flächen, Stationierung, Straßenelemente, Stützpunkte, Teilelemente, Topologie
 
-Fläche erfassen
-===============
+Fläche mittels Zeichnen erfassen
+================================
 
-.. image:: /_static/flaeche-erfassen.png
+.. image:: /_static/flaeche-erfassen-zeichnen.png
 
-.. _flaeche-erfassen_geometrie:
+.. _flaeche-erfassen-zeichnen_geometrie:
 
 Geometrie
 ---------
@@ -17,7 +17,9 @@ Geometrie
 #. Verknüpfung der Teilelemente und der dazwischenliegenden Straßenelemente mit der Fläche (**noch** zu realisieren auf **Datenbankebene**)
 #. Prüfung der Topologie (**noch** zu realisieren auf **Datenbankebene**)
 
-.. _flaeche-erfassen_sachdaten:
+**Anmerkung:** Im Resultat ist dieser Anwendungsfall identisch mit dem Anwendungsfall :doc:`../flaechen/flaeche-erfassen-trapezmodell`, da in beiden Fällen die Applikationsebene einfach eine Fläche an die Datenbankebene übergibt. Nur die konstruktionsbezogene Herangehensweise auf Applikationsebene ist unterschiedlich. Grundsätzlich gilt: Wurde eine Fläche mittels Zeichnen erfasst, soll sie dennoch mittels Stationierung und Querprofil weiterbearbeitet werden können.
+
+.. _flaeche-erfassen-zeichnen_sachdaten:
 
 Sachdaten
 ---------
