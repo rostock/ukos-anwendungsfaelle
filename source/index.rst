@@ -8,7 +8,6 @@ Anwendungsfälle für UkoS, das Umsetzungsprojekt kommunale Straßendaten Meckle
    :maxdepth: 2
 
    praeambel/praeambel
-   bemerkungen-offene-fragen/bemerkungen-offene-fragen
 
 Straßenelemente und Verbindungspunkte
 -------------------------------------
