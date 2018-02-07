@@ -21,5 +21,5 @@ Sachdaten
 
 * Eingabe aller gemäß Datenbankmodell verpflichtenden Verknüpfungen, zum Beispiel mit einer Straße (über diese dann auch Zuordnung der Organisationseinheit, also der zuständigen Verwaltung) und einer Klassifizierung (**noch** zu realisieren auf **Applikationsebene**)
 * Eingabe aller verpflichtenden und optionalen Attribute, zum Beispiel einer Bemerkung (**noch** zu realisieren auf **Applikationsebene**)
-* automatisierte Erstellung aller weiteren verpflichtenden Attribute, zum Beispiel der UUID (**schon** realisiert auf **Datenbankebene** über Standardwerte)
+* automatisierte Erstellung aller weiteren verpflichtenden Attribute, zum Beispiel der UUID und der „Ident“ (**schon** realisiert auf **Datenbankebene** über Standardwerte respektive Trigger)
 * automatisierte Berechnung der Länge in Metern (**noch** zu realisieren auf **Datenbankebene**)

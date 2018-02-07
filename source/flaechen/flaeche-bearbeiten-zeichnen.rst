@@ -29,3 +29,5 @@ Sachdaten
 ---------
 
 * automatisierte Neuberechnung des Flächeninhaltes in Quadratmetern (**noch** zu realisieren auf **Datenbankebene**)
+
+falls Fläche aufgetrennt wurde: siehe Fläche mittels Zeichnen erfassen, Abschnitt :ref:`Sachdaten <flaeche-bearbeiten-zeichnen_sachdaten>`

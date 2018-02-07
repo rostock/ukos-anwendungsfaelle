@@ -14,6 +14,15 @@ Entsprechende Attribute, mit denen sich eine Versionierung im Sinne einer Vollhi
 
 Historische Objekte sollen zwar standardmäßig nicht (mehr) zur Darstellung gebracht werden, es soll aber die Möglichkeit bestehen, historische Objekte zu reaktivieren – Beispiel: Ein Papierkorb, der einige Zeit zur Reparatur abgebaut war, soll wieder installiert werden. Auch dies ist **noch** zu realisieren auf **Applikationsebene**.
 
+.. _praeambel_ident:
+
+„Ident“ und „historische Ident“
+-------------------------------
+
+Neue Straßenelemente und Verbindungspunkte erhalten stets eine sogenannte „Ident“, das heißt einen eindeutigen Code bestehend aus 6 Zeichen der Menge [0-9a-zA-Z]. Es ist sichergestellt, dass „Idents“ nicht mehrfach vorkommen, auch über Objektgrenzen hinweg – das heißt, dass zum Beispiel ein Straßenelement niemals denselben „Ident“ aufweisen wird wie etwa ein Verbindungspunkt. Dies ist **schon** realisiert auf **Datenbankebene**.
+
+Nicht nur Straßenelemente und Verbindungspunkte, sondern auch alle doppischen sowie weitere Objekte können (müssen aber nicht) eine „historische Ident“ zugewiesen bekommen. Dies ist vor allem dann sinnvoll, wenn diese Objekte aus externen Datenbeständen importiert wurden. Dies ist **schon** realisiert auf **Datenbankebene**.
+
 .. _praeambel_bearbeitung:
 
 Metadaten zur Bearbeitung
