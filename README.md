@@ -33,7 +33,7 @@ Anwendungsfälle für *UkoS*, das *Umsetzungsprojekt kommunale Straßendaten Mec
 
 1.  Webseiten bauen:
 
-        make html
+        rm -r build/* && make html
 
 ## Deployment (am Beispiel des [*Apache HTTP Servers*](https://httpd.apache.org))
 
