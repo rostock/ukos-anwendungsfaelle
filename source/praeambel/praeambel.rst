@@ -19,7 +19,7 @@ Historische Objekte sollen zwar standardmäßig nicht (mehr) zur Darstellung geb
 „Ident“ und „historische Ident“
 -------------------------------
 
-Neue Straßenelemente und Verbindungspunkte erhalten stets eine sogenannte „Ident“, das heißt einen eindeutigen Code bestehend aus 6 Zeichen der Menge [0-9a-zA-Z]. Es ist sichergestellt, dass „Idents“ nicht mehrfach vorkommen, auch über Objektgrenzen hinweg – das heißt, dass zum Beispiel ein Straßenelement niemals denselben „Ident“ aufweisen wird wie etwa ein Verbindungspunkt. Dies ist **schon** realisiert auf **Datenbankebene**.
+Nicht nur neue Straßenelemente und Verbindungspunkte, sondern auch alle doppischen Objekte erhalten stets eine sogenannte „Ident“, das heißt einen eindeutigen Code bestehend aus 6 Zeichen der Menge [0-9a-zA-Z]. Es ist sichergestellt, dass „Idents“ nicht mehrfach vorkommen, auch über Objektgrenzen hinweg – das heißt, dass zum Beispiel ein Straßenelement niemals denselben „Ident“ aufweisen wird wie etwa ein Verbindungspunkt oder ein Papierkorb. Dies ist **schon** realisiert auf **Datenbankebene**.
 
 Nicht nur Straßenelemente und Verbindungspunkte, sondern auch alle doppischen sowie weitere Objekte können (müssen aber nicht) eine „historische Ident“ zugewiesen bekommen. Dies ist vor allem dann sinnvoll, wenn diese Objekte aus externen Datenbeständen importiert wurden. Dies ist **schon** realisiert auf **Datenbankebene**.
 
