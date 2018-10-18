@@ -11,9 +11,6 @@ Geometrie
 ---------
 
 #. Erfassung, Verschiebung oder Löschung eines (neuen) Stützpunktes in der vorhandenen Geometrie eines Straßenelementes (**noch** zu realisieren auf **Applikationsebene**)
-#. Neuherstellung der Anknüpfung des Start- und/oder Endpunktes an das Gesamtstraßennetz (Geometrieanschluss) (**noch** zu realisieren auf **Datenbankebene** ⇒ **noch** zu realisierende Herstellung der Topologie auf **Datenbankebene**, falls möglich)
-#. Neuberechnung der Straßenelementpunkte (**noch** zu realisieren auf **Datenbankebene**)
-#. Verhinderung von „Schmetterlingsflächen“ (**noch** zu realisieren auf **Datenbankebene**)
 
 .. _strassenelement-bearbeiten_sachdaten:
 
@@ -21,3 +18,11 @@ Sachdaten
 ---------
 
 * automatisierte Neuberechnung der Länge in Metern (**noch** zu realisieren auf **Datenbankebene**)
+
+.. _strassenelement-bearbeiten_verknuepfungen:
+
+Verknüpfungen
+-------------
+
+* Beibehaltung aller Straßenelementpunkte und Verknüpfungen anderer Objekte mit dem bearbeiteten Straßenelement sowie keinerlei Änderung oder Löschung verknüpfter anderer Objekte (**noch** zu realisieren auf **Datenbankebene**)
+* Aufführung aller Straßenelementpunkte sowie verknüpfter anderer Objekte und Aufforderung zu deren Überprüfung bzw. Anpassung oder Löschung (**noch** zu realisieren auf **Applikationsebene**)

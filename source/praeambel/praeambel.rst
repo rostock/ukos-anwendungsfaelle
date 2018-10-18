@@ -8,7 +8,7 @@ Präambel
 Historie
 --------
 
-Es soll eine Versionierung im Sinne einer Vollhistorie stattfinden: Jede Änderung an einem Objekt, egal ob an Geometrie oder Sachdaten, führt zur Historisierung des Ausgangsobjektes und zur Entstehung eines neuen Objektes; jede Löschung eines Objekts führt zu dessen Historisierung, ohne, dass dabei ein neues Objekt entsteht.
+Es soll eine Versionierung im Sinne einer Vollhistorie stattfinden: Jede Änderung an einem Objekt, egal ob an Geometrie oder Sachdaten, führt zur Historisierung des Ausgangsobjektes und zur Entstehung eines neuen Objektes sowie zur Anpassung aller bestehenden Verknüpfungen; jede Löschung eines Objekts führt zu dessen Historisierung, ohne, dass dabei ein neues Objekt entsteht.
 
 Entsprechende Attribute, mit denen sich eine Versionierung im Sinne einer Vollhistorie realisieren lässt, sind im Datenbankmodell integriert. Umgesetzt werden muss die Versionierung allerdings **noch** auf **Applikationsebene**.
 

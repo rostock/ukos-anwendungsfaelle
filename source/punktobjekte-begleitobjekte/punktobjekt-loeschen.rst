@@ -20,3 +20,10 @@ Sachdaten
 ---------
 
 siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
+
+.. _punktobjekt-loeschen_verknuepfungen:
+
+Verknüpfungen
+-------------
+
+* Löschung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**noch** zu realisieren auf **Datenbankebene**)

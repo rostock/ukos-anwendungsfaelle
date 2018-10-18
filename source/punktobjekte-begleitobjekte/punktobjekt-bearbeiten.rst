@@ -34,3 +34,10 @@ Sachdaten
 ---------
 
 ohne Änderung
+
+.. _punktobjekt-bearbeiten_verknuepfungen:
+
+Verknüpfungen
+-------------
+
+* optionale Anpassung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**noch** zu realisieren auf **Applikationsebene**)
