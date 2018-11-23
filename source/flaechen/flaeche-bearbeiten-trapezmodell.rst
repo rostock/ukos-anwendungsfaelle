@@ -14,14 +14,15 @@ Geometrie
     * optionale Verschiebung des Start-Straßenelementpunktes oder Neuauswahl des Start-Verbindungspunktes
     * optionale Verschiebung des Ende-Straßenelementpunktes oder Neuauswahl des Ende-Verbindungspunktes
     * optionale Verschiebung, Löschung und/oder Erfassung der dazwischenliegenden Straßenelementpunkte
-    * optionale Neuingabe der L- und/oder R-Ordinaten der Querprofile
-#. Anpassung der Fläche als geschlossenes Polygon (**noch** zu realisieren auf **Applikationsebene**)
-#. falls Straßenelementpunkte entstanden sind: Teilelement auf Straßenelement bilden (**noch** zu realisieren auf **Datenbankebene**)
-#. falls Straßenelementpunkte entstanden sind: Verknüpfung des Teilelementes, der Straßenelementpunkte und des betroffenen Straßenelementes mit der Fläche – Erfüllung der Bedingung der Verknüpfung zwischen Straßenelement und Fläche (**noch** zu realisieren auf **Datenbankebene**)
-#. falls keine Straßenelementpunkte entstanden sind: Verknüpfung des betroffenen Straßenelementes mit der Fläche – Erfüllung der Bedingung der Verknüpfung zwischen Straßenelement und Fläche (**noch** zu realisieren auf **Datenbankebene**)
+    * optionale Neuingabe aller L- und/oder R-Ordinaten der Querprofile
+#. Anpassung der Querschnittsflächen als einzelne, geschlossene Polygone (**noch** zu realisieren auf **Applikationsebene**)
+#. falls Straßenelementpunkte entstanden sind: Teilelemente auf Straßenelement bilden (**noch** zu realisieren auf **Datenbankebene**)
+#. falls Straßenelementpunkte entstanden sind: Verknüpfung der Teilelemente, der Straßenelementpunkte und des betroffenen Straßenelementes mit jeweils passender Querschnittsfläche – Erfüllung der Bedingung der Verknüpfung zwischen Straßenelement und Fläche (**noch** zu realisieren auf **Datenbankebene**)
+#. falls keine Straßenelementpunkte entstanden sind: Verknüpfung des betroffenen Straßenelementes mit der Querschnittsfläche – Erfüllung der Bedingung der Verknüpfung zwischen Straßenelement und Fläche (**noch** zu realisieren auf **Datenbankebene**)
 #. Prüfung der Topologie (**noch** zu realisieren auf **Datenbankebene**)
+#. Anpassung der verknüpften, übergeordneten Verkehrsfläche (**noch** zu realisieren auf **Datenbankebene**)
 
-**Anmerkung:** Im Resultat ist dieser Anwendungsfall identisch mit dem Anwendungsfall :doc:`../flaechen/flaeche-erfassen-zeichnen`, da in beiden Fällen die Applikationsebene einfach eine Fläche an die Datenbankebene übergibt. Nur die konstruktionsbezogene Herangehensweise auf Applikationsebene ist unterschiedlich. Grundsätzlich gilt: Wurde eine Fläche mittels Stationierung und Querprofil erfasst, soll sie dennoch mittels Zeichnen weiterbearbeitet werden können.
+**Anmerkung:** Im Resultat ist dieser Anwendungsfall identisch mit dem Anwendungsfall :doc:`../flaechen/flaeche-erfassen-zeichnen`, da in beiden Fällen die Applikationsebene einfach Flächen an die Datenbankebene übergibt. Nur die konstruktionsbezogene Herangehensweise auf Applikationsebene ist unterschiedlich. Grundsätzlich gilt: Wurde eine Fläche mittels Stationierung und Querprofil erfasst, soll sie dennoch mittels Zeichnen weiterbearbeitet werden können.
 
 .. _flaeche-bearbeiten-trapezmodell_sachdaten:
 
