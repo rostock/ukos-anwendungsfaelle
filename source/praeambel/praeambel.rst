@@ -30,4 +30,4 @@ Metadaten zur Bearbeitung
 
 Es sollen stets Metadaten zur Bearbeitung entstehen, also zum Bearbeiter und zum Zeitpunkt der Bearbeitung.
 
-Entsprechende Attribute, in denen Metadaten zur Bearbeitung abgebildet werden können, sind im Datenbankmodell integriert. Umgesetzt werden muss **noch** die Abbildung der Metadaten auf **Datenbankebene**. Auf  **Applikationsebene** muss dann **noch** realisiert werden, dass die Metadaten zum Bearbeiter anhand des angemeldeten Benutzers an die Datenbankebene übergeben werden.
+Entsprechende Attribute, in denen Metadaten zur Bearbeitung abgebildet werden können, sind im Datenbankmodell integriert. Auf  **Applikationsebene** muss dann **noch** realisiert werden, dass die Metadaten zum Bearbeiter anhand des angemeldeten Benutzers an die Datenbankebene übergeben werden.
