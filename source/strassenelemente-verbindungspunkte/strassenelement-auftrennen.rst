@@ -10,23 +10,23 @@ Straßenelement auftrennen (Verbindungspunkt einfügen)
 Geometrie
 ---------
 
-#. Auftrennung des vorhandenen Straßenelementes an einem Punkt, das heißt Festlegung des Einfügeortes eines neuen Verbindungspunktes in vorhandene Geometrie eines Straßenelementes (**noch** zu realisieren auf **Applikationsebene**)
-#. Teilung des vorhandenen Straßenelementes in zwei neue Straßenelemente und Aktualisierung der zugehörigen Verbindungspunkte (**noch** zu realisieren auf **Datenbankebene**)
-#. Neuberechnung der Straßenelementpunkte (**noch** zu realisieren auf **Datenbankebene**)
+#. Auftrennung des vorhandenen Straßenelementes an einem Punkt, das heißt Festlegung des Einfügeortes eines neuen Verbindungspunktes in vorhandene Geometrie eines Straßenelementes (**schon** realisiert auf **Applikationsebene**)
+#. Teilung des vorhandenen Straßenelementes in zwei neue Straßenelemente (**schon** realisiert auf **Applikationsebene**)
+#. Aktualisierung der zugehörigen Verbindungspunkte (**schon** realisiert auf **Datenbankebene**)
 
 .. _strassenelement-auftrennen_sachdaten:
 
 Sachdaten
 ---------
 
-* Übernahme oder Neueingabe aller verpflichtenden und optionalen Attribute in/für die beiden neuen Straßenelemente, zum Beispiel einer Bemerkung (**noch** zu realisieren auf **Applikationsebene**)
+* Übernahme oder Neueingabe aller verpflichtenden und optionalen Attribute in/für die beiden neuen Straßenelemente, zum Beispiel einer Bemerkung (**schon** realisiert auf **Applikationsebene**)
 * automatisierte Übernahme aller weiteren verpflichtenden Attribute in die beiden neuen Straßenelemente *außer* der UUID und der „Ident“, die jeweils neu erstellt werden (**schon** realisiert auf **Datenbankebene** über Standardwerte respektive Trigger)
-* automatisierte Neuberechnung der Längen in Metern der beiden neuen Straßenelemente (**noch** zu realisieren auf **Datenbankebene**)
+* automatisierte Neuberechnung der Längen in Metern der beiden neuen Straßenelemente (**schon** realisiert auf **Datenbankebene**)
 
 .. _strassenelement-auftrennen_verknuepfungen:
 
 Verknüpfungen
 -------------
 
-* automatisierte Übernahme aller gemäß Datenbankmodell verpflichtenden Verknüpfungen in die beiden neuen Straßenelemente, zum Beispiel mit einer Straße (über diese dann auch Zuordnung der Organisationseinheit, also der zuständigen Verwaltung) und einer Klassifizierung (**noch** zu realisieren auf **Datenbankebene**)
-* automatisierte Aufteilung aller Verknüpfungen anderer Objekte mit dem vorhandenen Straßenelement auf die beiden neuen Straßenelemente, und zwar je nach Lage des anderen Objektes zu genau einem der beiden neuen Straßenelemente, sodass nach wie vor Verknüpfungen bestehen (**noch** zu realisieren auf **Datenbankebene**)
+* automatisierte Übernahme aller gemäß Datenbankmodell verpflichtenden Verknüpfungen in die beiden neuen Straßenelemente, zum Beispiel mit einer Straße (über diese dann auch Zuordnung der Organisationseinheit, also der zuständigen Verwaltung) und einer Klassifizierung (**schon** realisiert auf **Datenbankebene**)
+* automatisierte Aufteilung der Verknüpfungen aller Straßenelementpunkte und anderer Objekte mit dem ehemals vorhandenen Straßenelement auf die beiden neuen Straßenelemente, und zwar je nach Lage des Straßenelementpunktes oder anderen Objektes zu genau einem der beiden neuen Straßenelemente, sodass nach wie vor Verknüpfungen bestehen (**schon** realisiert auf **Datenbankebene**)

@@ -10,19 +10,18 @@ Straßenelement bearbeiten (Geometrie via Stützpunkte ändern)
 Geometrie
 ---------
 
-#. Erfassung, Verschiebung oder Löschung eines (neuen) Stützpunktes in der vorhandenen Geometrie eines Straßenelementes (**noch** zu realisieren auf **Applikationsebene**)
+#. Erfassung, Verschiebung oder Löschung eines (neuen) Stützpunktes in der vorhandenen Geometrie eines Straßenelementes (**schon** realisiert auf **Applikationsebene**)
 
 .. _strassenelement-bearbeiten_sachdaten:
 
 Sachdaten
 ---------
 
-* automatisierte Neuberechnung der Länge in Metern (**noch** zu realisieren auf **Datenbankebene**)
+* automatisierte Neuberechnung der Länge in Metern (**schon** realisiert auf **Datenbankebene**)
 
 .. _strassenelement-bearbeiten_verknuepfungen:
 
 Verknüpfungen
 -------------
 
-* Beibehaltung aller Straßenelementpunkte und Verknüpfungen anderer Objekte mit dem bearbeiteten Straßenelement sowie keinerlei Änderung oder Löschung verknüpfter anderer Objekte (**noch** zu realisieren auf **Datenbankebene**)
-* Aufführung aller Straßenelementpunkte sowie verknüpfter anderer Objekte und Aufforderung zu deren Überprüfung bzw. Anpassung oder Löschung (**noch** zu realisieren auf **Applikationsebene**)
+* Beibehaltung der Verknüpfungen aller Straßenelementpunkte und anderer Objekte mit dem bearbeiteten Straßenelement sowie keinerlei Änderung oder Löschung dieser Straßenelementpunkte und anderen Objekte (**noch** zu realisieren auf **Datenbankebene**)
