@@ -20,7 +20,7 @@ Sachdaten
 ---------
 
 * Übernahme oder Neueingabe aller verpflichtenden und optionalen Attribute in/für die beiden neuen Straßenelemente, zum Beispiel einer Bemerkung (**Applikationsebene**)
-* automatisierte Übernahme aller weiteren verpflichtenden Attribute in die beiden neuen Straßenelemente *außer* der UUID und der „Ident“, die jeweils neu erstellt werden (**Datenbankebene** respektive Trigger)
+* automatisierte Übernahme aller weiteren verpflichtenden Attribute in die beiden neuen Straßenelemente *außer* der UUID und der „Ident“, die jeweils neu erstellt werden (**Datenbankebene**)
 * automatisierte Neuberechnung der Längen in Metern der beiden neuen Straßenelemente (**Datenbankebene**)
 
 .. _strassenelement-auftrennen_verknuepfungen:
