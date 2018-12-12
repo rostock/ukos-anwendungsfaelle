@@ -12,7 +12,7 @@ Geometrie
 
 siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
 
-#. zugehörigen Straßenelementpunkt ebenfalls löschen, falls kein anderes, „lebendes“ Punktobjekt (Begleitobjekt) mehr mit dem Straßenelementpunkt verknüpft ist (**noch** zu realisieren auf **Datenbankebene**)
+#. zugehörigen Straßenelementpunkt ebenfalls löschen, falls kein anderes, „lebendes“ Punktobjekt (Begleitobjekt) mehr mit dem Straßenelementpunkt verknüpft ist (**Datenbankebene**)
 
 .. _punktobjekt-loeschen_sachdaten:
 
@@ -26,4 +26,4 @@ siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
 Verknüpfungen
 -------------
 
-* Löschung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**noch** zu realisieren auf **Datenbankebene**)
+* Löschung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**Datenbankebene**)

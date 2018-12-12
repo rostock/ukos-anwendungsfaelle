@@ -10,10 +10,10 @@ Punktobjekt bearbeiten
 Geometrie
 ---------
 
-#. Verschiebung eines vorhandenen Straßenelementpunktes (**schon** realisiert auf **Applikationsebene**)
-#. Auswahl eines vorhandenen Straßenelementes (**noch** zu realisieren auf **Applikationsebene**)
-#. Neuverknüpfung des Straßenelementpunktes mit dem Straßenelement (**noch** zu realisieren auf **Datenbankebene**)
-#. entsprechende Verschiebung des mit dem Straßenelementpunkt verknüpften Punktobjektes (Begleitobjektes) (**schon** realisiert auf **Datenbankebene**)
+#. Verschiebung eines vorhandenen Straßenelementpunktes (**Applikationsebene**)
+#. Auswahl eines vorhandenen Straßenelementes (**Applikationsebene**)
+#. Neuverknüpfung des Straßenelementpunktes mit dem Straßenelement (**Datenbankebene**)
+#. entsprechende Verschiebung des mit dem Straßenelementpunkt verknüpften Punktobjektes (Begleitobjektes) (**Datenbankebene**)
 
 .. _punktobjekt-bearbeiten_sachdaten:
 
@@ -27,4 +27,4 @@ ohne Änderung
 Verknüpfungen
 -------------
 
-* optionale Anpassung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**schon** realisiert auf **Applikationsebene**)
+* optionale Anpassung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**Applikationsebene**)

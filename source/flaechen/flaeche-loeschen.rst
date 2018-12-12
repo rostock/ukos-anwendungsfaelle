@@ -12,10 +12,10 @@ Geometrie
 
 siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
 
-#. falls Straßenelementpunkte existieren: zugehörige Straßenelementpunkte ebenfalls löschen, falls keine andere, „lebende“ Fläche mehr mit diesen Straßenelementpunkten verknüpft ist (**noch** zu realisieren auf **Datenbankebene**)
-#. falls Straßenelementpunkte existieren: Aufhebung der Verknüpfung der Straßenelemente mit der Fläche (**noch** zu realisieren auf **Datenbankebene**)
-#. falls Teilelement existiert: zugehöriges Teilelement ebenfalls löschen, falls keine andere, „lebende“ Fläche mehr mit dem Teilelement verknüpft ist (**noch** zu realisieren auf **Datenbankebene**)
-#. falls Teilelement existiert: Aufhebung der Verknüpfung des Teilelementes mit der Fläche (**noch** zu realisieren auf **Datenbankebene**)
+#. falls Straßenelementpunkte existieren: zugehörige Straßenelementpunkte ebenfalls löschen, falls keine andere, „lebende“ Fläche mehr mit diesen Straßenelementpunkten verknüpft ist (**Datenbankebene**)
+#. falls Straßenelementpunkte existieren: Aufhebung der Verknüpfung der Straßenelemente mit der Fläche (**Datenbankebene**)
+#. falls Teilelement existiert: zugehöriges Teilelement ebenfalls löschen, falls keine andere, „lebende“ Fläche mehr mit dem Teilelement verknüpft ist (**Datenbankebene**)
+#. falls Teilelement existiert: Aufhebung der Verknüpfung des Teilelementes mit der Fläche (**Datenbankebene**)
 
 .. _flaeche-loeschen_sachdaten:
 
@@ -29,4 +29,4 @@ siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
 Verknüpfungen
 -------------
 
-* Löschung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**noch** zu realisieren auf **Datenbankebene**)
+* Löschung aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**Datenbankebene**)

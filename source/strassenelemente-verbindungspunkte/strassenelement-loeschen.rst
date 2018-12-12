@@ -12,7 +12,7 @@ Geometrie
 
 siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
 
-#. zugehörige Verbindungspunkte ebenfalls löschen, falls kein anderes, „lebendes“ Straßenelement mehr mit den Verbindungspunkten verknüpft ist (**schon** realisiert auf **Datenbankebene**)
+#. zugehörige Verbindungspunkte ebenfalls löschen, falls kein anderes, „lebendes“ Straßenelement mehr mit den Verbindungspunkten verknüpft ist (**Datenbankebene**)
 
 .. _strassenelement-loeschen_sachdaten:
 
@@ -26,4 +26,4 @@ siehe Präambel, Abschnitt :ref:`Historie <praeambel_historie>`
 Verknüpfungen
 -------------
 
-* automatisierte Neuberechnung der Verknüpfungen aller Straßenelementpunkte und anderer Objekte mit dem gelöschten Straßenelement auf das nunmehr dichteste Straßenelemente, sodass nach wie vor Verknüpfungen bestehen (**noch** zu realisieren auf **Datenbankebene**)
+* automatisierte Neuberechnung der Verknüpfungen aller Straßenelementpunkte und anderer Objekte mit dem gelöschten Straßenelement auf das nunmehr dichteste Straßenelemente, sodass nach wie vor Verknüpfungen bestehen (**Datenbankebene**)

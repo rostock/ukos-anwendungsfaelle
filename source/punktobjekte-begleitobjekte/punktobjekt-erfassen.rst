@@ -10,21 +10,21 @@ Punktobjekt erfassen
 Geometrie
 ---------
 
-#. Erfassung eines neuen oder Auswahl eines vorhandenen Straßenelementpunktes (**noch** zu realisieren auf **Applikationsebene**)
-#. Verknüpfung des Straßenelementpunktes mit dem dichtesten Straßenelement (**noch** zu realisieren auf **Datenbankebene**)
-#. Erzeugung eines neuen Punktobjektes (Begleitobjektes) und Verknüpfung mit dem Straßenelementpunkt (**noch** zu realisieren auf **Datenbankebene**)
+#. Erfassung eines neuen oder Auswahl eines vorhandenen Straßenelementpunktes (**Applikationsebene**)
+#. Verknüpfung des Straßenelementpunktes mit dem dichtesten Straßenelement (**Datenbankebene**)
+#. Erzeugung eines neuen Punktobjektes (Begleitobjektes) und Verknüpfung mit dem Straßenelementpunkt (**Datenbankebene**)
 
 .. _punktobjekt-erfassen_sachdaten:
 
 Sachdaten
 ---------
 
-* Eingabe aller verpflichtenden und optionalen Attribute (**schon** realisiert auf **Applikationsebene**)
-* automatisierte Erstellung aller weiteren verpflichtenden Attribute, zum Beispiel der UUID (**schon** realisiert auf **Datenbankebene** über Standardwerte)
+* Eingabe aller verpflichtenden und optionalen Attribute (**Applikationsebene**)
+* automatisierte Erstellung aller weiteren verpflichtenden Attribute, zum Beispiel der UUID (**Datenbankebene**)
 
 .. _punktobjekt-erfassen_verknuepfungen:
 
 Verknüpfungen
 -------------
 
-* Eingabe aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**schon** realisiert auf **Applikationsebene**)
+* Eingabe aller gemäß Datenbankmodell verpflichtenden Verknüpfungen (**Applikationsebene**)
