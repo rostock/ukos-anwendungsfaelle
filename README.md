@@ -6,6 +6,7 @@ Anwendungsfälle für *UkoS*, das *Umsetzungsprojekt kommunale Straßendaten Mec
 
 *   [*Python*](https://www.python.org)
 *   [*Virtualenv*](https://virtualenv.pypa.io)
+*   [*pip*](http://pip.pypa.io)
 
 ## Installation
 
